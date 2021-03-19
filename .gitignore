@@ -1,0 +1,12 @@
+*.pyc
+*/Debug/
+*/Release/
+*/x64/
+*/x64_debug_ida_32/
+*/.vs/
+*/*/Debug/
+*/*/Release/
+*/*/x64/
+*/*/x64_debug_ida_32/
+*.user
+*.vsspell
