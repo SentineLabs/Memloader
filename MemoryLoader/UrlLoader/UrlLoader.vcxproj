@@ -187,8 +187,8 @@
       <AdditionalLibraryDirectories>C:\workspace\idasdk+tools\idasdk75\lib\x64_win_vc_64;$(SolutionDir)x64\Debug</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>echo 'copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(AssemblyName)64.dll'
-copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(AssemblyName)64.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_32_address_ida|x64'">
@@ -212,8 +212,8 @@ copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(Assembly
       <AdditionalLibraryDirectories>C:\workspace\idasdk+tools\idasdk75\lib\x64_win_vc_32;C:\workspace\idasdk+tools\idasdk75\lib\x64_win_vc_64;$(SolutionDir)x64\Debug_32_address_ida</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>echo 'copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(AssemblyName).dll'
-copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(AssemblyName).dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

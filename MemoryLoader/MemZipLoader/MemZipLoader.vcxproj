@@ -186,8 +186,8 @@
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
     <PostBuildEvent>
-      <Command>echo 'copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(AssemblyName)64.dll'
-copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(AssemblyName)64.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_32_address_ida|x64'">
@@ -212,8 +212,8 @@ copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(Assembly
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
     <PostBuildEvent>
-      <Command>echo 'copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(AssemblyName).dll'
-copy  "$(TargetPath)" C:\temp\AutomaticRebase\idasdk75\IdaDir\loaders\$(AssemblyName).dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
