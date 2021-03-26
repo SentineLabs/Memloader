@@ -3,7 +3,9 @@ Memory loader is a DLL based on IDA SDK that allows you to load files into IDA a
 without writing the actual file to the disk. This scenario is very useful when you are reversing a malware
 and you have a static detection-based antivirus on your PC. The memory loader itself is a DLL, that
 the MemZipLoader and URLLoader are using in order to load the buffers they provide, either from a zip file or URLs into
-IDA database</br></br>
+IDA database.</br>
+The idea for the memory loader came from my team member [Kasif Dekel](https://twitter.com/kasifdekel).
+</br></br>
 ![Mem Loader](./pics/memory_loader.png)
 
 ## Mem Zip loader
